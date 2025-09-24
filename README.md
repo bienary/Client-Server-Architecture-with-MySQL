@@ -12,3 +12,5 @@
 > The machine responding (serving) is called the "Server"
 
 <img width="1516" height="872" alt="image" src="https://github.com/user-attachments/assets/1e1acd41-be95-4e9a-8d08-189812eade56" />
+
+<img width="805" height="138" alt="image" src="https://github.com/user-attachments/assets/28d3aacc-2ea5-4f30-9dbf-dd78578656c5" />
