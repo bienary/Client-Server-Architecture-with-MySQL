@@ -12,3 +12,6 @@
 > The machine responding (serving) is called the "Server"
 
 ![Client-Server-Architecture (1)](https://github.com/user-attachments/assets/29b08547-421b-4439-a96c-4b83ba0f28b7)
+
+
+<img width="1516" height="872" alt="image" src="https://github.com/user-attachments/assets/1e1acd41-be95-4e9a-8d08-189812eade56" />
