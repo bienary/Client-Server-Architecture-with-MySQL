@@ -10,3 +10,5 @@
 > The machine sending requests is usually referred to as the "Client"
 
 > The machine responding (serving) is called the "Server"
+
+![Client-Server-Architecture (1)](https://github.com/user-attachments/assets/29b08547-421b-4439-a96c-4b83ba0f28b7)
