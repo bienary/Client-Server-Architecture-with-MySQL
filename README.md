@@ -25,6 +25,19 @@
 
 <img width="1070" height="150" alt="Screenshot From 2025-09-25 22-46-11" src="https://github.com/user-attachments/assets/38898181-4661-4154-b161-07b40e310909" />
 
+**Allow inbound traffic on port 3306 in mysql-server security group**
+
+- Go to AWS Console > EC2 > Security Groups.
+
+- Select the security group attached to mysql-server.
+
+- Add a new Inbound rule: Select Custom TCP > Port 3306 > Enter the private IP of `MySQL-Client` instance only
+
+
+<img width="1330" height="483" alt="image" src="https://github.com/user-attachments/assets/953dbafc-4d90-4c40-8dc6-e3025547cb4e" />
+
+
+
 **2. On mysql-server instance: Install MySQL Server**
 
 - SSH into the Server instance.
