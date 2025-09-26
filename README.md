@@ -17,7 +17,7 @@
 
 #### 🎯**Step-by-step guide on how to implement MySQL Client-Server architecture on AWS EC2 Linux instances**
 
-**1. Setup EC2 Instances**
+**1. 💼 Setup EC2 Instances**
 
 - Create two EC2 instances running Ubuntu Linux.
 
@@ -38,7 +38,7 @@
 
 
 
-**2. On mysql-server instance: Install MySQL Server**
+**2. 🛠️ On mysql-server instance: Install MySQL Server**
 
 - SSH into the Server instance.
 
@@ -63,7 +63,7 @@ sudo systemctl status mysql
 
 <img width="1306" height="418" alt="Screenshot From 2025-09-25 23-18-28" src="https://github.com/user-attachments/assets/cdabd26a-5be2-429c-944a-637e386be94c" />
 
-3. **On mysql-client instance: Install MySQL Client**
+**3. 🏛️ On mysql-client instance: Install MySQL Client**
 
 - SSH into the Client instance.
 
@@ -81,7 +81,7 @@ sudo apt install mysql-client -y
 
 <img width="1330" height="400" alt="image" src="https://github.com/user-attachments/assets/1dc4b6b3-32b3-4b2b-a82d-ab78136a94f0" />
 
-4. **Configure MySQL server to accept remote connections**
+**4. 🔨 Configure MySQL server to accept remote connections**
 
 ```
 sudo vi /etc/mysql/mysql.conf.d/mysqld.cnf
@@ -92,7 +92,7 @@ sudo vi /etc/mysql/mysql.conf.d/mysqld.cnf
 ```
 sudo systemctl restart mysql
 ```
-5. **Create MySQL user with remote access permissions on mysql-server**
+**5. 📌 Create MySQL user with remote access permissions on mysql-server**
 
 - Login to MySQL Server
 ```
@@ -128,3 +128,8 @@ INSERT INTO employees (name, position, salary) VALUES
 ```
 
 <img width="1323" height="623" alt="image" src="https://github.com/user-attachments/assets/bd489ec0-d83a-4e6d-97a6-eeba9ebb451c" />
+
+---
+
+#### **✅ Conclusion** 
+- We have successfully implemented a basic Client-Server architecture using MySQL. By setting up two Linux-based EC2 instances, configuring MySQL for remote access, securing user permissions, and connecting via the MySQL client, we’ve built a fully functional environment for remote database operations.
